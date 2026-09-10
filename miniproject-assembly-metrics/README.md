@@ -41,3 +41,7 @@ Summary of Results
     - count = 187
     - total_length = 130480874
     - average_length =  697758.6844919786
+
+- What trend do you see? PRJNA248909 is from 2014, PRJNA248911 is from 2015, PRJNA577507 is from 2019
+    - the total lengths for all four files are similar
+    - for the three files that we know the year, the average length has increased with age that maybe we can interpret that DNA sequencing technology has gone better
