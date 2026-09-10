@@ -23,9 +23,9 @@ https://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/releases/WBPS19/species/ca
 
 Summary of Results
 Caenorhabditis remanei	University of Oregon	ASM164373v2	PRJNA248909
-    count = 1591
-    total_length = 118549266
-    average_length = 74512.42363293526
+    \n count = 1591
+    \n total_length = 118549266
+    \n average_length = 74512.42363293526
 
 Caenorhabditis remanei	University of Oregon	CaeRem1.0	PRJNA248911
     count = 912
