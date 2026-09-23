@@ -1,0 +1,18 @@
+library(tidyverse)
+
+setwd("/Users/cmdb/qb26-answers/week1") 
+
+header <- c("chr", "start", "end", "count")
+
+dfB <- read_tsv("hg16-kc-count.bed", col_names = header)
+dfA <- read_tsv("hg19-kc-count.bed", col_names = header)
+
+combined <- bind_rows(hg19 = dfA, hg16 = dfB, .id = "assembly")
+
+ggplot(combined, aes(x = start, y = count, color = assembly)) +
+  geom_line() +
+  facet_wrap(~chr, scales = "free")
+
+ggsave( "exercise2.png" )
+  
+  
