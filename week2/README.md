@@ -23,4 +23,9 @@
 
 #3.2 ploidy argument matter here because the segregants are haploids, so we use -p 1. if we told FreeBayes these samples were diploid, genotypes could look like 0/0 and 0/1. 
 
+# 4.1 the figure  has most count between 0.3 to 0.6 allele frequency. This is expected because the chance of inheriting BY or RM allele is about half at each position. The distribution looks like a normal distribution or binomial distribution.  
+
+# 4.2 the chromosome has chucks of 0 and 1 and they switch from 0 to 1 or 1 to 0, indicating crossover events from homologous recombination. The chromosome info changes from one parent to another. 
+
+#4.3 the samples that looked like BY in IGV screenshot from exercise 2 also look like BY at the end of chrl here. No samples appear to be mostly one parent across the whole genome. 
 
