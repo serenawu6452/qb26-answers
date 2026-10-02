@@ -29,3 +29,8 @@
 
 #4.3 the samples that looked like BY in IGV screenshot from exercise 2 also look like BY at the end of chrl here. No samples appear to be mostly one parent across the whole genome. 
 
+# 5.1 A single “discordant” SNP is probably not sufficient to call a crossover because it could be a simple sequencing error rather than a crossover. 
+
+#5.2 The distribution of crossover look like a binomial distribution. My histogram is mostly between 50 to 70 that is lower than the published 90 crossovers per meiosis. The reason may be my code is counting false switches as crossover therefore the number is not the same as the published values. 
+
+
