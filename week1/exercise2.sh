@@ -6,9 +6,9 @@
   271  bedtools intersect -c -b hg16-kc.bed -a hg16-1mb.bed > hg16-kc-count.bed
   272  ls -l
   273  wc -l hg19-kc.bed
-  274  bedtools intersect -v -b hg16-kc.bed -a hg19-1mb.bed | wc -l
+(revised)  bedtools intersect -v -b hg16-kc.bed -a hg19-1kc.bed | wc -l
   275  wc -l hg16-kc.bed
-  276  bedtools intersect -v -b hg19-kc.bed -a hg16-1mb.bed | wc -l
+(revised)   bedtools intersect -v -b hg19-kc.bed -a hg16-1kc.bed | wc -l
   277  ls -l
  
 # there are 80309 genes in hg19. 467 genes are in hg19 but not in hg16 and this is can due to improvement in technology discovering more genome information that add or update the previous genome information. 

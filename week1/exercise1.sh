@@ -9,4 +9,5 @@
   326  bedtools intersect -c -b hg19-kc.bed -a hg19-1mb.bed >  hg19-kc-count.bed
   328  rm hg19-kc-count.be
 
-
+# resubmission edit
+bedtools makewindows -g hg19-main.chrom.sizes -w 1000000 > hg19-1mb.bed
